@@ -1,10 +1,10 @@
 // Variable for Surrounding "Room Temperature"
 
-var a = 5
+var a = 55555 
 
 // Variable for Intial or Starting Temperature of Soup (0 Variable)
 
-var i = 10 
+var i = 100 
 
 // Constant that will be solved for
 
@@ -14,8 +14,14 @@ var i = 10
 
 //var t = 
 
+// Function to subtract Room Temp from Initial
 //var sub = function(a, i) {
 //	return i - a;
 //  }
 
-console.log(add(a,i))
+// Function to get Natural Log of numbers
+//var ln = function(a) {
+//	return Math.log(a) 
+//	}
+
+console.log()
