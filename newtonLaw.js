@@ -1,4 +1,5 @@
 /* Code by Collin Mullis
+	Program to use Newton's Law of Cooling to figure out Rate of Cooling
 	All Temperature Variables are stored in Degrees Celsius
 	All Time Variables are stored in Minutes
 	April 21st 2015
@@ -52,6 +53,14 @@ coolingLaw = function(a, i, T, t) {
 		return two / one
 	}
 	var three = Math.pow(divi(two, one), -1)
-	return three
+	function ln(three) {
+		return Math.log(three)
+	}
+	var four = ln(three)
+	function divide(four, t) {
+		return four / t
+	}
+	var k = divide(four, t) 
+	return k
 }
 console.log(coolingLaw(a, i, T, t));
