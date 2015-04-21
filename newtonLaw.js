@@ -6,9 +6,9 @@ var a = 55555
 
 var i = 100 
 
-// Constant that will be solved for
+// Variable for storing Temperature after "t" time
 
-//var k = 
+//var T = 
 
 // Variable for time
 
@@ -24,4 +24,5 @@ var i = 100
 //	return Math.log(a) 
 //	}
 
-console.log()
+// Test to return "e" constant
+console.log(Math.E)
