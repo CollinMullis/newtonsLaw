@@ -48,6 +48,10 @@ coolingLaw = function(a, i, T, t) {
 		return T - a 
 	}
 	var two = equal(T, a)
-	return two
+	function divi(two, one) {
+		return two / one
+	}
+	var three = Math.pow(divi(two, one), -1)
+	return three
 }
 console.log(coolingLaw(a, i, T, t));
